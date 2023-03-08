@@ -1,18 +1,24 @@
 {
-  "name": "astro-blog",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^2.0.18",
-    "@astrojs/mdx": "^0.17.2",
-    "@astrojs/rss": "^2.1.1",
-    "@astrojs/sitemap": "^1.1.0"
-  }
+    "name": "astro-blog",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/mdx": "^0.17.2",
+        "@astrojs/rss": "^2.1.1",
+        "@astrojs/sitemap": "^1.1.0",
+        "astro": "^2.0.18"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "^5.54.1",
+        "eslint": "^8.35.0",
+        "eslint-plugin-astro": "^0.23.0",
+        "prettier-plugin-astro": "^0.8.0"
+    }
 }
