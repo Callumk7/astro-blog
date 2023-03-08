@@ -45,7 +45,6 @@ const posts = (await getCollection('blog')).sort(
 								<a href={`/blog/${post.slug}/`}>
 									{post.data.title}
 								</a>
-								<div>{post.data.description}</div>
 							</li>
 						))
 					}
